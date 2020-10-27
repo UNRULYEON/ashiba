@@ -1,0 +1,26 @@
+{
+  "name": "ashiba",
+  "version": "1.0.0",
+  "description": "React components for building applications",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "repository": "git@github.com:UNRULYEON/ashiba.git",
+  "author": "Amar Kisoensingh <amar@kisoensingh.sh>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "build:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.48",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=16.3.0"
+  },
+  "keywords": [
+    "ashiba", "scaffolder", "react", "components", "suspense", "animation"
+  ]
+}
